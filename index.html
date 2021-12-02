@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>momentum</title>
+</head>
+<body>
+  <header class="header">
+    <div class="player">
+      <div class="audio-name"></div>
+      <div class="duration">
+        <div class="progress"></div>
+      </div>
+      <div class="audio-time"></div>
+      <div class="volume">
+        <div class="audio-volume"></div>
+        <input type="range" class="audio-change" min="0" max="100" step="1">
+      </div>
+      <div class="player-controls">
+        <button class="play-prev player-icon"></button>
+        <button class="play player-icon"></button>
+        <button class="play-next player-icon"></button>
+      </div>
+      <ul class="play-list"></ul>
+    </div>
+    <div class="weather">
+      <input type="text" class="city" />
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <span class="temperature"></span>
+        <span class="weather-description"></span>
+      </div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time"></time>
+    <date class="date"></date>
+    <div class="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" class="name" />
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="cogwheel-container">
+      <div class="cogwheel"></div>
+      <div class="settings">
+        <div class="settings-nav">
+          <ul>
+            <li class="settings-general">General</li>
+          </ul>
+        </div>
+        <div class="settings-content">
+          <ul>
+            <div class="settings-block">
+              <div class="settings-lang" >Language:</div>
+              <select class="lang" name="lang" id="lang">
+                <option value="en">English</option>
+                <option value="ru">Русский</option>
+              </select>
+            </div>
+            <div class="settings-show">Show</div>
+            <div class="settings-block">
+              <div class="settings-player">Player</div>
+              <label class="switch">
+                <input type="checkbox" checked class="settings-player playerBlock">
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div class="settings-block">
+              <div class="settings-weather">Weather</div>
+              <label class="switch">
+                <input type="checkbox" checked class="settings-player weatherBlock">
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div class="settings-block">
+              <div class="settings-quote">Quote</div>
+              <label class="switch">
+                <input type="checkbox" checked class="settings-player quoteBlock">
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div class="settings-block">
+              <div class="settings-time">Time</div>
+              <label class="switch">
+                <input type="checkbox" checked class="settings-player timeBlock">
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div class="settings-block">
+              <div class="settings-date">Date</div>
+              <label class="switch">
+                <input type="checkbox" checked class="settings-player dateBlock">
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div class="settings-block">
+              <div class="settings-greeting">Greeting</div>
+              <label class="switch">
+                <input type="checkbox" checked class="settings-player greetingBlock">
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="todo-container">
+      <div class="todo-name">Todo</div>
+      <div class="todo">
+        <div>
+          <div>Today</div>
+        </div>
+      </div>
+    </div> -->
+    <button class="change-quote"></button>
+    <div class="quoteWrapper">
+      <div class="quote"></div>
+      <div class="author"></div>
+    </div>
+    <div class="project">
+      <div class="year">2021</div>
+      <a href="https://rs.school/js/">
+        <img class="logo" src="https://rs.school/images/rs_school_js.svg"></img>
+      </a>
+      <a class="github" href="https://github.com/asar2030">https://github.com/asar2030</a>
+    </div>
+  </footer>
+  <script src="./js/index.js"></script>
+</body>
+</html>

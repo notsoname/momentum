@@ -1,0 +1,74 @@
+[
+    {
+      "ru" : {
+        "text": "Пишите код так, как будто сопровождать его будет склонный к насилию психопат, который знает, где вы живете.",
+        "author": "Стив Макконнелл"
+      },
+      "en" : {
+        "text": "Write the code as if it will be accompanied by a violent psychopath who knows where you live.",
+        "author": "Steve McConnell"
+      }
+    },
+    {
+      "en" : {
+        "text": "There are no regrets, like shoelaces on shoes.",
+        "author": "Adil Jalilov"
+      },
+      "ru" : {
+        "text": "Сожалений нет, как шнурков на ботинках.",
+        "author": "Адиль Жалелов"
+      }
+    },
+    { 
+      "en" : {
+        "text": "You smell like love.You're crazy at first sight.You smell like chocolate.You smell like flowers.",
+        "author": "Adil Jalilov"
+      },
+      "ru": {
+        "text": "Ты пахнешь, как любовь.Ты сумасшествие с первого взгляда.Ты пахнешь шоколадом.Пахнешь, как цветы.",
+        "author": "Адиль Жалелов"
+      }
+    },
+    {
+      "en" : {
+        "text": "I promised everything I could again, because this is love.",
+        "author": "Adil Jalilov"
+      },
+      "ru" : {
+        "text": "Я снова пообещал все, что смог, ведь это любовь.",
+        "author": "Адиль Жалелов"
+      }
+    },
+    {
+      "en" : {
+        "text": "The risk comes from not knowing what you are doing",
+        "author": "Warren Buffett"
+      },
+      "ru" :{
+        "text": "Риск приходит от незнания того, что вы делаете",
+        "author": "Уоррен Баффет"
+      }
+    },
+    { 
+      "en" : {
+        "text": "If you are offered a place in a rocket, do not ask what kind of place. Just get in!",
+        "author": "Sheryl Sandberg"
+      },
+      "ru" : {
+        "text": "Если вам предлагают место в ракете, не спрашивайте что за место. Просто залезайте!",
+        "author": "Шерил Сэндберг"
+      }
+    },
+    {
+      "en" : {
+        "text": "The biggest risk is not to make any risky decisions... In a world that is changing very quickly, the only strategy that is guaranteed to fail is not to take risks.",
+        "author": "Mark Zuckerberg"
+      },
+      "ru" : {
+        "text": "Самый большой риск – не принимать какие-либо рискованные решения... В мире, который меняется очень быстро, единственная стратегия, которая гарантированно потерпит неудачу – не рисковать.",
+        "author": "Марк Цукерберг"
+      }
+    } 
+  ]  
+
+
