@@ -457,7 +457,7 @@ const weatherLAng = {
 }
 
 async function getWeather(lang = 'en') {  
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city.value}&lang=${lang}&appid=db9bf3f3b83675a56117b122595a5034&units=metric`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city.value}&lang=${lang}&appid=c1fdc8799733130ac18602298b4c8372&units=metric`;
     fetch(url) 
         .then(response => {
             if (response.ok) {
